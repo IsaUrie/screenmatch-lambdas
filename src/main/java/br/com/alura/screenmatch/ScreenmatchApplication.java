@@ -19,6 +19,5 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		service.ConverteDados converteDados = new service.ConverteDados();
 		model.DadosSerie dadosSerie = converteDados.obterDados(json, model.DadosSerie.class);
 		System.out.println(dadosSerie);
-		System.out.println("para git");
 	}
 }
